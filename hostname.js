@@ -6,4 +6,5 @@ function hostName() {
     document.getElementById("location").innerHTML = x;
     document.getElementById("location").innerHTML = y;
     document.getElementById("location").innerHTML = z;
+    a.innerHTML = "Hostname " + x + "<br>Pathname " + y + "<br>Protocol " + z;
 }

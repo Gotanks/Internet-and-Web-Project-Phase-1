@@ -23,7 +23,7 @@
         <a class="dropdown">Browser-Menu</a>
         <div class="dropdown-content">
             <a href="#" onclick="browserSpecifics()"id ="browse">Navigator</a>
-            <a href="#" onclick= "myScreen()" id = "window">Window</a>
+            <a href="#" onclick= "myWindow()" id = "window">Window</a>
             <a href="#" onclick="screenSpecifics() "id = "screen1">Screen</a>
             <a href="#" onclick= "hostName()" id = "location">Location</a>
             <a href="#" onclick= "getLocation()" id ="Geo">Geolocation</a>
@@ -34,24 +34,28 @@
         <a class="dropdown">About</a>
         <div class="dropdown-content">
             <a href= "aboutme.html">David Golbari</a>
-            <a href="mailto:golbaridavic@gmail.com?subject=Contact Developer"target="_blank">Email</a>
+<!--This section if for users that use the default mail application            <a href="mailto:golbaridavic@gmail.com?subject=Contact Developer"target="_blank">Email</a>-->
+            <a href = https://mail.google.com/mail/?view=cm&fs=1&to=golbaridavid@gmail.com>Email</a>
+<!--This section is for users already signed into a gmail account            -->
         </div>
     </li>
-    <li class="dropdown">
-        <a class="dropdown">TEST</a>
-        <div class="dropdown-content">
-            <a href="Navigator.js">This is a test</a>
-        </div>
-
-    </li>
+<!--    <li class="dropdown">-->
+<!--        <a class="dropdown">TEST</a>-->
+<!--        <div class="dropdown-content">-->
+<!--            <a href="Navigator.js">This is a test</a>-->
+<!--        </div>-->
+<!--    </li>-->
 </ul>
-
-<script type = "text/javascript" scr ="ScreenDimensions.js"></script>
-<script type = "text/javascript" scr ="Navigator.js"></script>
-<script type = "text/javascript" scr ="Screen.js"></script>
-<script type = "text/javascript" scr ="hostName.js"></script>
-<script type = "text/javascript" src ="Geolocation.js"></script>
+<script type = "text/javascript" src ="Navigator.js"></script>
 <script type= "text/javascript"></script>
+<script type = "text/javascript" src ="Screen.js"></script>
+<script type = "text/javascript"></script>
+<script type = "text/javascript" src ="Window.js"></script>
+<script type = "text/javascript"></script>
+<script type = "text/javascript" src ="hostname.js"></script>
+<script type = "text/javascript"></script>
+<script type = "text/javascript" src ="Geolocation.js"></script>
+<script type = "text/javascript"></script>
 
 </body>
 </html>

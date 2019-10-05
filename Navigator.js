@@ -1,14 +1,15 @@
 function browserSpecifics(){
     var txt = "";
-    txt += "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
-    txt += "<p>Browser Name: " + navigator.appName + "</p>";
-    txt += "<p>Browser Version: " + navigator.appVersion + "</p>";
-    txt += "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
-    txt += "<p>Browser Language: " + navigator.language + "</p>";
-    txt += "<p>Browser Online: " + navigator.onLine + "</p>";
-    txt += "<p>Platform: " + navigator.platform + "</p>";
-    txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
-
+    // txt += "<br>Browser CodeName: " + navigator.appCodeName + "</br>";
+    txt += "Browser Name: " + navigator.appName;
+    txt += "<br>Browser Version: " + navigator.product;
+    // txt += "<br>Browser Version: " + navigator.appVersion + "</br>";
+    // txt += "<br>Cookies Enabled: " + navigator.cookieEnabled + "</br>";
+    txt += "<br>Browser Language: " + navigator.language;
+    // txt += "<br>Browser Online: " + navigator.onLine + "</br>";
+    txt += "<br>Platform: " + navigator.platform;
+    // txt += "<br>User-agent header: " + navigator.userAgent + "</br>";
+    txt += "<br>Language: " + navigator.language;
     var a = document.getElementById("browse").innerHTML = txt;
     x.innerHTML
 }
